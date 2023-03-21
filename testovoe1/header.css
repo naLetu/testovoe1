@@ -1,0 +1,89 @@
+.top {
+  background-color: #1c1b2f;
+  height: 40px;
+  margin-bottom: 25px;
+  /* position: fixed; */
+}
+
+.top-header {
+  margin: 0 auto;
+  line-height: 15px;
+  height: 40px;
+  max-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.registration-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 80px;
+  height: 104px;
+  max-height: 104px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  list-style: none;
+  padding-inline-start: 0;
+  gap: 40px;
+  margin-right: 60px;
+}
+
+.menu-item a {
+  color: #1c1b2f;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 146%;
+  font-weight: 600;
+  gap: 24px;
+}
+
+.logo {
+  margin-right: 220px;
+  width: 160px;
+  height: 80px;
+}
+
+.left-btn {
+  border: 1px solid #f38f57;
+  background-color: #ffffff;
+  border-radius: 8px;
+  color: #f38f57;
+  display: inline-block;
+  padding: 12px 28px 19px;
+}
+
+.right-btn,
+.sv-btn,
+.reg-btn {
+  display: inline-block;
+  background-color: #f38f57;
+  border-radius: 8px;
+  border: 0;
+  color: #ffffff;
+  padding: 12px 32px 19px;
+}

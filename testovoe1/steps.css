@@ -1,0 +1,89 @@
+.steps-background {
+  background-color: #fffcfa;
+  padding-bottom: 140px;
+  padding-top: 120px;
+  background-image: url("images/line.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.steps {
+  padding-top: 120px;
+  margin-bottom: 120px;
+  background-size: contain;
+}
+
+.card h1 {
+  color: #f38f57;
+  font-weight: 800;
+  font-size: 84px;
+  line-height: 130%;
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 170px;
+}
+
+.steps h2 {
+  font-size: 38px;
+  line-height: 120%;
+  font-weight: 800;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.steps h3 {
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 700;
+  color: #9c9ca2;
+  margin-bottom: 130px;
+  text-align: center;
+}
+
+.cards p {
+  max-width: 260px;
+  font-size: 22px;
+  line-height: 130%;
+  max-height: 136px;
+}
+
+@media (max-width: 375px) {
+  .cards {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 19px;
+  }
+  .card:first-of-type {
+    gap: 28px;
+  }
+  .steps h2 {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+  .steps h3 {
+    font-size: 18px;
+    margin-bottom: 68px;
+  }
+  .card h1 {
+    margin: 0px;
+    font-size: 54px;
+    margin-top: -15px;
+  }
+  .cards p {
+    max-width: 192px;
+    font-size: 14px;
+    font-weight: 500;
+    max-height: 136px;
+  }
+}

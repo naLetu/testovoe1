@@ -1,0 +1,151 @@
+.example-header h2 {
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  line-height: 120%;
+  text-align: center;
+  line-height: 120%;
+}
+
+.example-header h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 100px;
+  color: #9c9ca1;
+  text-align: center;
+  line-height: 120%;
+}
+
+.period {
+  text-align: center;
+  color: #1c1b2f;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 117px;
+}
+
+.period h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+
+.period-block p {
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 500;
+}
+
+.period-block {
+  max-width: 190px;
+  position: relative;
+}
+
+.period-block img {
+  margin-bottom: 24px;
+}
+
+.period-block:not(:last-of-type)::after {
+  content: "";
+  position: absolute;
+  bottom: 87%;
+  left: 72%;
+  display: block;
+  height: 2px;
+  width: 229px;
+  background-color: #9c9ca1;
+}
+
+.example-heading {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.example-bot h4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 120%;
+  color: #9c9ca1;
+  margin-bottom: 20px;
+}
+
+.example-bot {
+  line-height: 120%;
+}
+
+.without,
+.with {
+  max-width: 544px;
+}
+
+.calculated {
+  color: #1c1b2f;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  line-height: 120%;
+}
+
+.calculated span {
+  color: #f38f57;
+}
+
+.calculated-text {
+  color: #9c9ca1;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 130%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.calculated-text2 {
+  color: #9c9ca1;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 130%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 60px;
+}
+
+.block-without {
+  border: 2px solid #1c1b2f;
+  border-radius: 14px;
+  padding: 20px 140px 40px 20px;
+}
+
+.block-with {
+  border: 2px solid #f38f57;
+  border-radius: 14px;
+  padding: 20px 35px 25px 20px;
+}
+
+.box-bot {
+  display: flex;
+  justify-content: space-between;
+  gap: 34px;
+}
+
+.text-1 {
+  max-width: 122px;
+}
+
+.text-2,
+.text-4 {
+  max-width: 110px;
+}
+
+.text-3 {
+  max-width: 222px;
+}
+
+.example {
+  margin-bottom: 140px;
+}

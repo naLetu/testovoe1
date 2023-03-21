@@ -1,0 +1,35 @@
+@import url("./header.css");
+@import url("./info.css");
+@import url("./steps.css");
+@import url("./example.css");
+@import url("./price.css");
+@import url("./reviews.css");
+@import url("./registration.css");
+@import url("./footer.css");
+
+body {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 160px;
+  max-width: 1120px;
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding: 0 20px;
+  }
+}
