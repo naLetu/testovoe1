@@ -11,6 +11,7 @@ body {
   margin: 0px;
   font-family: "Montserrat", sans-serif;
   width: 100%;
+  color: #1c1b2f;
 }
 
 a {
@@ -28,8 +29,9 @@ a {
   max-width: 1120px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 320px) {
   .container {
     padding: 0 20px;
+    margin: 0 auto;
   }
 }

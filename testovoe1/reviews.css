@@ -12,7 +12,7 @@
   border-radius: 14px;
   padding: 48px 28px;
   display: flex;
-  max-width: 650px;
+  max-width: 590px;
   margin: 60px auto 40px;
   gap: 32px;
 }
@@ -45,4 +45,44 @@
   justify-content: space-between;
   max-width: 240px;
   margin: 36px auto 140px;
+}
+
+@media (max-width: 320px) {
+  .reviews h2 {
+    font-size: 22px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 0.02em;
+    max-width: 279px;
+  }
+  .slider-content h4 {
+    font-size: 14px;
+    margin-left: 32%;
+  }
+  .slider-content {
+    font-size: 14px;
+    position: relative;
+  }
+  .slider {
+    border-radius: 14px;
+    padding: 32px 20px 24px;
+    display: inline-block;
+    position: relative;
+    margin: 0 0 32px;
+  }
+  .slider-img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .slider-content h5 {
+    margin-bottom: 38px;
+    margin-left: 32%;
+  }
+  .turn {
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+    margin: 0 auto 50px;
+  }
 }

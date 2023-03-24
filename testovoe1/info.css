@@ -30,8 +30,46 @@
   font-weight: 600;
   line-height: 130%;
   padding-bottom: 22px;
+  max-width: 462px;
 }
 
 .about-us p {
   margin-left: 24px;
+}
+
+@media (max-width: 320px) {
+  .info-header h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    letter-spacing: 0.02em;
+  }
+  .info-header h2 {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .info-back {
+    background: none;
+    padding-bottom: 0;
+  }
+  .about-us li {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .about-us p {
+    margin-left: 20px;
+    max-width: 170px;
+  }
+  .about-us {
+    list-style-image: url("images/list320px.png");
+    margin-bottom: 30px;
+    padding-inline-start: 28px;
+  }
+  .sv-btn {
+    display: none;
+  }
+  .info {
+    background-image: url("images/img-info320px.png");
+    background-repeat: no-repeat;
+    background-position: right bottom 52px;
+  }
 }

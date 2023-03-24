@@ -4,7 +4,6 @@
   margin-bottom: 24px;
   line-height: 120%;
   text-align: center;
-  line-height: 120%;
 }
 
 .example-header h3 {
@@ -36,10 +35,10 @@
   font-size: 16px;
   line-height: 130%;
   font-weight: 500;
+  /* max-width: 190px; */
 }
 
 .period-block {
-  max-width: 190px;
   position: relative;
 }
 
@@ -53,8 +52,9 @@
   bottom: 87%;
   left: 72%;
   display: block;
+  max-width: 230px;
   height: 2px;
-  width: 229px;
+  width: 120%;
   background-color: #9c9ca1;
 }
 
@@ -87,32 +87,52 @@
   color: #1c1b2f;
   font-size: 22px;
   font-weight: 700;
-  margin-bottom: 12px;
   line-height: 120%;
+  display: flex;
+  gap: 8px;
 }
 
-.calculated span {
+.calculated h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.block-text p {
+  max-width: 189px;
+  max-height: 100px;
+}
+.number3,
+.number3-2 {
   color: #f38f57;
 }
 
+.number3-2 {
+  margin-left: -50px;
+}
 .calculated-text {
   color: #9c9ca1;
   font-size: 12px;
   font-weight: 500;
   line-height: 130%;
-  display: flex;
-  justify-content: flex-start;
-  gap: 25px;
 }
 
-.calculated-text2 {
-  color: #9c9ca1;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 130%;
-  display: flex;
-  justify-content: flex-start;
-  gap: 60px;
+.number2 p,
+.number2-2 p {
+  max-width: 107px;
+  margin-left: 17px;
+}
+
+.number1-2 p {
+  max-width: 222px;
+}
+
+.number1 p,
+.number2-2 p {
+  max-width: 107px;
+}
+
+.number1-2 h3 {
+  max-width: 260px;
 }
 
 .block-without {
@@ -125,27 +145,134 @@
   border: 2px solid #f38f57;
   border-radius: 14px;
   padding: 20px 35px 25px 20px;
+  max-width: 544px;
 }
 
 .box-bot {
   display: flex;
   justify-content: space-between;
-  gap: 34px;
-}
-
-.text-1 {
-  max-width: 122px;
-}
-
-.text-2,
-.text-4 {
-  max-width: 110px;
-}
-
-.text-3 {
-  max-width: 222px;
+  flex-wrap: wrap;
 }
 
 .example {
   margin-bottom: 140px;
+}
+
+@media (max-width: 320px) {
+  .period {
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  .period-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    text-align: left;
+  }
+  .period-block:not(:last-of-type)::after {
+    content: "";
+    display: none;
+  }
+  .period-block p {
+    max-width: 192px;
+    font-size: 14px;
+    width: 192px;
+  }
+  .period-block h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .example-header h2 {
+    font-size: 22px;
+    margin-bottom: 16px;
+    letter-spacing: 0.02em;
+  }
+  .example-header h3 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 56px;
+  }
+  .example-heading {
+    font-size: 18px;
+    font-weight: 800;
+    color: #9c9ca2;
+    margin-bottom: 32px;
+  }
+  .example-bot h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  .calculated {
+    flex-direction: column;
+  }
+  .calculated h3 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+  .number3 h3,
+  .number3-2 h3 {
+    font-size: 22px;
+  }
+  .calculated-text {
+    font-size: 10px;
+  }
+  .calculated span {
+    display: none;
+  }
+  .number1 p {
+    margin-bottom: 24px;
+  }
+  .number3-2 {
+    margin-left: 0px;
+  }
+  .number2 p {
+    width: 109px;
+    margin-left: 0px;
+    margin-bottom: 37px;
+    max-width: 110px;
+  }
+  .number2-2 p {
+    margin-left: 0px;
+  }
+  .number1-2 p {
+    max-width: 182px;
+    margin-bottom: 24px;
+  }
+  .number2-2 p {
+    max-width: 149px;
+    margin-bottom: 37px;
+  }
+  .block-without {
+    max-width: 278px;
+    padding: 24px 135px 28px 32px;
+    position: relative;
+    margin-bottom: 32px;
+  }
+  .block-with {
+    max-width: 278px;
+    padding: 24px 33px 28px 32px;
+    position: relative;
+  }
+  .example {
+    margin-bottom: 50px;
+  }
+  .number2::after {
+    content: "";
+    height: 1px;
+    width: 216px;
+    background-color: #d3d3d8;
+    position: absolute;
+    bottom: 30%;
+  }
+  .number2-2::after {
+    content: "";
+    height: 1px;
+    width: 216px;
+    background-color: #d3d3d8;
+    position: absolute;
+    bottom: 26%;
+  }
 }

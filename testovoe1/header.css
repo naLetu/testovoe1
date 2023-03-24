@@ -87,3 +87,32 @@
   color: #ffffff;
   padding: 12px 32px 19px;
 }
+
+/* @media (max-width: 1000px){
+  nav .menu{
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+  }
+
+} */
+
+@media (max-width: 320px) {
+  .top {
+    display: none;
+  }
+  .menu,
+  .button {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .nav {
+    background: url("images/logo320px.png"), url("images/logo-reg320px.png"),
+      url("images/logo-menu320px.png");
+    background-repeat: no-repeat;
+    background-position: left top 8px, right 56px top 15px, right top 23px;
+    margin-bottom: 0px;
+  }
+}
