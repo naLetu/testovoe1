@@ -15,11 +15,15 @@
   align-items: center;
 }
 
+.top-header a {
+  cursor: pointer;
+}
 .registration-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 12px;
+  cursor: pointer;
 }
 
 .nav {
@@ -43,6 +47,7 @@
 
 .menu-item a {
   color: #1c1b2f;
+  cursor: pointer;
 }
 
 .menu-item {
@@ -60,25 +65,28 @@
   line-height: 146%;
   font-weight: 600;
   gap: 24px;
+  cursor: pointer;
 }
 
 .logo {
   margin-right: 220px;
   width: 160px;
   height: 80px;
+  cursor: pointer;
 }
 
-.left-btn {
+.button-primary {
   border: 1px solid #f38f57;
   background-color: #ffffff;
   border-radius: 8px;
   color: #f38f57;
   display: inline-block;
   padding: 12px 28px 19px;
+  cursor: pointer;
 }
 
-.right-btn,
-.sv-btn,
+.button-secondary,
+.button-third,
 .reg-btn {
   display: inline-block;
   background-color: #f38f57;
@@ -86,6 +94,7 @@
   border: 0;
   color: #ffffff;
   padding: 12px 32px 19px;
+  cursor: pointer;
 }
 
 /* @media (max-width: 1000px){

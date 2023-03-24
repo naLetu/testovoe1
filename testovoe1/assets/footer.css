@@ -17,6 +17,9 @@
 .footer-logo {
   margin-bottom: 20px;
 }
+.footLogo-link {
+  cursor: pointer;
+}
 
 .footer-text {
   padding-left: 30px;
@@ -34,10 +37,15 @@
 
 .footer-text a {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .footer-email {
   margin-bottom: 12px;
+  cursor: pointer;
+}
+.footer-tel {
+  cursor: pointer;
 }
 
 @media (max-width: 320px) {
